@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rss_item_displayer"
+    android:weightSum="1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="android.rss.RSSItemDisplayer">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleTextView"
+        android:layout_weight="0.04" />
+
+    <Button
+        android:text="Перейти по ссылке"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:id="@+id/followTheLink"
+        android:onClick="onClick"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contentTextView"
+        android:layout_weight="0.89" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pubDate"
+        android:layout_weight="0.04" />
+
+    <Button
+        android:text="Вернуться"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:id="@+id/backToList"
+        android:onClick="onClick"/>
+
+
+</LinearLayout>

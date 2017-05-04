@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:weightSum="1">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:id="@+id/title"
+        android:maxLines="1"
+        android:ellipsize="end"
+        />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:id="@+id/date"
+        android:maxLines="1"
+        android:ellipsize="end"/>
+</LinearLayout>
