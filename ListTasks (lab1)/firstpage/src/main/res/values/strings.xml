@@ -2,7 +2,7 @@
     <string name="app_name">Список задач</string>
     <string name="date">date</string>
     <string name="fileName">tasks</string>
-    <string name="delimiter">~</string>
+    <string name="delimiter">◘</string>
     <string name="rewrite">rewrite</string>
     <string name="header">header</string>
     <string name="isChange">isChange</string>

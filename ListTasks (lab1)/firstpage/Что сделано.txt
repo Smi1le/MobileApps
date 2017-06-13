@@ -1,0 +1,17 @@
+Сохранение значений CheckBox'ов при скроллинге ListView + 
+Сохранение данных при поворотах экрана +
+Создать новое Activity +
+Сделать переход между двумя активити +
+Сохранение данных при переходе из Activity Создания в Главное Activity -
+
+
+
+fromList :: [a] -> String
+fromList [] = []
+fromList (x:xs) | go x xs = x + fromList xs
+				| otherwise = fromList xs
+	where
+		go :: a -> [a] -> Bool
+		go el list = length newList == length list
+			where 
+				newList = [ n | n <- list, n /= el ]*/
